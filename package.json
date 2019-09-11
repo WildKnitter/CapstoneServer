@@ -1,0 +1,25 @@
+{
+    "name": "capstoneserver",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/WildKnitter/CapstoneServer.git"
+    },
+    "author": "Pam Belknap",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/WildKnitter/CapstoneServer/issues"
+    },
+    "homepage": "https://github.com/WildKnitter/CapstoneServer#readme",
+    "dependencies": {
+        "connect": "^3.7.0",
+        "connect-cookies": "0.0.0",
+        "express-session": "^1.16.2"
+    }
+}
